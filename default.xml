@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gh" fetch="https://github.com" />
+	<remote  name="cy" fetch="https://github.com/charlesxyan" />
+
+	<default revision="refs/tags/master" remote="gh" sync-j="4" />
+
+	<project path="bin" name="bin" remote="cy" revision="master" />
+	<project path="bin/android_rom_build_system_init" name="android_rom_build_system_init" remote="cy" revision="master" />	
+	<project path="conf" name="conf" remote="cy" revision="master" />
+</manifest>
